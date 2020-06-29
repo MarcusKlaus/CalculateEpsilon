@@ -1,5 +1,6 @@
 # CalculateEpsilon
 R code to calculate turbulent kinetic energy dissipation in running waters using Acoustic Doppler Velocimetry
+Example data data ("ADV_ExampleFile") are also provided
 
 ### GENERAL INFORMATION
 ### code is written by Marcus Klaus, Swedish University of Agricultural Sciences (SLU), Umeå, Sweden
@@ -8,11 +9,8 @@ R code to calculate turbulent kinetic energy dissipation in running waters using
 ### 
 ### Please don't hesitate to contact me for any questions or if you find errors in the code!
 ###
-### Please note: There is no golden standard method for estimating epsilon in rivers
+### Please note: There is no golden standard method for estimating epsilon in running waters
 ### results are sensitive to many parameters, and must always be quality checked!
-###
-### I also provide example data files ("ADV_ExampleFile") collected using a 4D Nortek Vectrino ADV 
-### in a flume at Lunz Mesocosm facility, Lunz am See, Austria
 ### 
 ### For use with different ADV, the code needs to be adjusted
 ###
@@ -43,7 +41,8 @@ R code to calculate turbulent kinetic energy dissipation in running waters using
 ###
 ### Kitaigorodskii, S. A. and Lumley, J. L.: Wave-Turbulence interactions in the Upper Ocean. Part I: 
 ### The Energy Balance of the Interacting Fields of Surface Wind Waves and Wind-Induced Three-Dimensional Turbulence, 
-### Journal of Physical Oceanography, 13, 1977–1987, https://doi.org/10.1175/1520-0485(1983)013<1977:WTIITU>2.0.CO;2,https://doi.org/10.1175/1520-0485(1983)013<1977:WTIITU>2.480 0.CO;2, 1983.
+### Journal of Physical Oceanography, 13, 1977–1987, 
+### https://doi.org/10.1175/1520-0485(1983)013<1977:WTIITU>2.0.CO;2,https://doi.org/10.1175/1520-0485(1983)013<1977:WTIITU>2.480 0.CO;2, 1983.
 ###
 ### Ruddick, B., Anis, A., and Thompson, K.: Maximum Likelihood Spectral Fitting: The Batchelor Spectrum, Journal of
 ### Atmospheric and Oceanic Technology - J ATMOS OCEAN TECHNOL, 17, 1541–1555, https://doi.org/10.1175/15200426(2000)017<1541:MLSFTB>2.0.CO;2, 2000.
