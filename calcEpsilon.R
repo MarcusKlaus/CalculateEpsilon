@@ -49,7 +49,7 @@
 ### Atmospheric and Oceanic Technology - J ATMOS OCEAN TECHNOL, 17, 1541–1555, https://doi.org/10.1175/15200426(2000)017<1541:MLSFTB>2.0.CO;2, 2000.
 ###
 ### Zappa, C. J., Raymond, P. A., Terray, E. A., and McGillis, W. R.: Variation in surface turbulence and the 
-### gas transfer velocity over a tidal525 cycle in a macro-tidal estuary, Estuaries, 26, 1401–1415, 2003.
+### gas transfer velocity over a tidal cycle in a macro-tidal estuary, Estuaries, 26, 1401–1415, 2003.
 ###
 ###############################################################################################################
 ### INPUTS: 
