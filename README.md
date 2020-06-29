@@ -28,10 +28,8 @@ Example data data ("ADV_ExampleFile") are also provided
 ### Code is based on methods in Zappa et al. 2003 and uses many improvements by Bluteau et al. 2011
 ### Some code parts are adapted from the GDopp package (https://github.com/USGS-R/GDopp)
 ###
-### Main references:
-###
 ### Bluteau, C., Jones, N., and Ivey, G.: Estimating turbulent kinetic energy dissipation using the inertial subrange method in environmental Flows, Limnology and Oceanography: Methods, 9, https://doi.org/10.4319/lom.2011.9.302, 2011.
 ###
-### Zappa, C. J., Raymond, P. A., Terray, E. A., and McGillis, W. R.: Variation in surface turbulence and the gas transfer velocity over a tidal525 cycle in a macro-tidal estuary, Estuaries, 26, 1401–1415, 2003.
+### Zappa, C. J., Raymond, P. A., Terray, E. A., and McGillis, W. R.: Variation in surface turbulence and the gas transfer velocity over a tidal cycle in a macro-tidal estuary, Estuaries, 26, 1401–1415, 2003.
 ###
 
