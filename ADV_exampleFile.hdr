@@ -1,0 +1,141 @@
+[C:\Users\ADV\Desktop\chamber-turbulence\07_chamber_blu.vno]
+---------------------------------------------------------------------
+Number of measurements                12000
+Number of checksum errors             0
+Time of first measurement             2019-07-25 15:24:32
+Time of last measurement              2019-07-25 15:25:32
+
+User setup
+---------------------------------------------------------------------
+Sampling rate                         200 Hz
+Nominal velocity range                0.30 m/s
+Transmit length                       2.4 mm
+Sampling volume                       9.1 mm
+Output sync                           VECTRINO
+Output sync                           MASTER
+Analog output                         DISABLED
+Velocity scaling                      0.1 mm
+Powerlevel                            HIGH-
+Coordinate system                     XYZ
+Sound speed                           MEASURED
+Salinity                              0.0 ppt
+Number of beams                       4
+Software version                      1.06
+System1                               8
+System2                               50
+System3                               9
+System4                               445
+System5                               512
+System9                               1218
+System10                              65
+System11                              0
+System12                              0
+System13                              0
+System14                              1
+System16                              1
+System17                              9
+System22                              10800
+System28                              1
+System29                              1
+System30                              20
+System31                              15026 15057 15087 15117
+System32                              5357
+System33                              32768
+System34                              16384
+System35                              30583
+System36                              15292
+System37                              7646
+System38                              140
+System39                              300
+System40                              0
+System41                              0
+System42                              2796
+System43                              0
+System44                              6
+System45                              8
+System46                              5000
+System47                              32768
+System48                              16384
+System49                              30720
+System50                              15360
+System51                              7680
+System52                              150
+System53                              320
+System39                              200 200 200 200
+Start command                         1
+CRC download                          Unknown
+
+Hardware configuration
+---------------------------------------------------------------------
+Serial number                         VNO 0057      
+Internal code version                 0
+Revision number                       2
+Revision number                       2
+Firmware version                      1.25
+
+Head configuration
+---------------------------------------------------------------------
+System 1                              1
+System 1                              0
+Head frequency                        10000 kHz
+Serial number                         VCN 7026
+Transformation matrix                 8803 0 -8829 0
+                                      0 9319 0 -9323
+                                      2160 0 2050 0
+                                      0 2108 0 2089
+Number of beams                       4
+System5                               0 0 0 0
+System7                               0 2050 0 0
+                                      2108 0 2089 0
+System8                               0 0 0
+                                      0 0 0
+                                      0 0 0
+System9                               0 0 0
+                                      0 0 0
+                                      0 0 0
+System10                              0 0 0 0
+System11                              0 0 0 0
+System13                              1481 259 7128 10861
+System14                              0 0 0 0
+                                      0 0 0 0
+System15                              0 0 0 0
+                                      0 0 0 0
+                                      0 0 0 0
+                                      0 0 0 0
+System16                              0 0 0 0
+System17                              0
+System18                              0
+System19                              0
+System20                              10000
+
+Velocity header
+---------------------------------------------------------------------
+Distance                              0.0735 m
+Quality                               513 counts
+Lag1 & Lag2 used                      140 300 counts
+Noise amplitude (beam1-4)             8 12 12 10 counts
+Noise correlation (beam1-4)           16 17 9 17 %
+Temperature                           14.36 degrees C
+Soundspeed                            1460.0 m/s
+
+Data file format
+---------------------------------------------------------------------
+[C:\Users\ADV\Desktop\chamber-turbulence\07_chamber_blu.dat]
+ 1   Status
+ 2   Ensemble counter
+ 3   Velocity (Beam1|X)               (m/s)
+ 4   Velocity (Beam2|Y)               (m/s)
+ 5   Velocity (Beam3|Z)               (m/s)
+ 6   Velocity (Beam4|Z2)              (m/s)
+ 7   Amplitude (Beam1)                (counts)
+ 8   Amplitude (Beam2)                (counts)
+ 9   Amplitude (Beam3)                (counts)
+10   Amplitude (Beam4)                (counts)
+11   SNR (Beam1)                      (dB)
+12   SNR (Beam2)                      (dB)
+13   SNR (Beam3)                      (dB)
+14   SNR (Beam4)                      (dB)
+15   Correlation (Beam1)              (%)
+16   Correlation (Beam2)              (%)
+17   Correlation (Beam3)              (%)
+18   Correlation (Beam4)              (%)
