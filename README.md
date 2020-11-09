@@ -6,6 +6,8 @@ code is written by Marcus Klaus, Swedish University of Agricultural Sciences (SL
 contact: marcus.klaus@posteo.net
 
 last update: 2020-03-26
+
+Please note: This code is currently under revision (in response to reviewer comments) and will soon be updated!
  
 Please don't hesitate to contact me for any questions or if you find errors in the code!
 
