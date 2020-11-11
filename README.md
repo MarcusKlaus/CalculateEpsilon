@@ -18,7 +18,7 @@ The code consistes of four parts:
 # Please note
 The original code (version 1.0) has been revised in response to reviewer comments; for details, see https://bg.copernicus.org/preprints/bg-2020-327/ 
 
-Please use the latest version 1.1 ("CalcEpsilon1_1.R")
+Please use the latest version 1.1 ("calcEpsilon1_1.R")
 
 There is no golden standard method for estimating epsilon in running waters
 results are sensitive to many parameters, and must always be quality checked!
