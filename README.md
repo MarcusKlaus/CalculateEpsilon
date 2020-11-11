@@ -8,24 +8,25 @@ contact: marcus.klaus@posteo.net
 release date (code version 1_0): 2020-03-26
 last update: (code version 1_1) 2020-11-11
 
-Please note: This code has been revised in response to reviewer comments; see https://bg.copernicus.org/preprints/bg-2020-327/ 
-Please use the latest version "CalcEpsilon1_1.R"
- 
-Please don't hesitate to contact me for any questions or if you find errors in the code!
-
-Please note: There is no golden standard method for estimating epsilon in running waters
-results are sensitive to many parameters, and must always be quality checked!
-
-For use with different ADV, the code needs to be adjusted
-
-The script consistes of four parts: 
+The code consistes of four parts: 
 (1) load directories / boundary data
 (2) load functions
 (3) process data
 (4) Quality check
 
-METHOD
-Method is described in detail in 
+# Please note
+This code has been revised in response to reviewer comments; see https://bg.copernicus.org/preprints/bg-2020-327/ 
+Please use the latest version "CalcEpsilon1_1.R"
+
+There is no golden standard method for estimating epsilon in running waters
+results are sensitive to many parameters, and must always be quality checked!
+
+For use with different ADV system, the code needs to be adjusted
+
+Please don't hesitate to contact me for any questions or if you find errors in the code!
+
+# Method
+The method is described in detail in 
 Vingiani, F., Durighetto, N, Klaus, M., Schelker, J., Labasque, T. and Botter, W.: Evaluatingstream CO2 
 outgassing via Drifting and Anchored chambers:results of a Flume experiment. Biogeosciences Discussions https://bg.copernicus.org/preprints/bg-2020-327/ .
  
