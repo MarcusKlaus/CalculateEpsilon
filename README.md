@@ -22,7 +22,7 @@ Please use the latest version "CalcEpsilon1_1.R"
 There is no golden standard method for estimating epsilon in running waters
 results are sensitive to many parameters, and must always be quality checked!
 
-For use with different ADV system, the code needs to be adjusted
+This code is for a Nortek Vectrino 4 beam ADV. For use with different ADV systems, the code may need to be adjusted.
 
 Please don't hesitate to contact me for any questions or if you find errors in the code!
 
