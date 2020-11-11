@@ -5,9 +5,9 @@ Example data ("ADV_ExampleFile") are also provided
 code is written by Marcus Klaus, Swedish University of Agricultural Sciences (SLU), Umeå, Sweden, 
 contact: marcus.klaus@posteo.net
 
-release date (code version 1_0): 2020-03-26
+release date (code version 1.0): 2020-03-26
 
-last update: (code version 1_1) 2020-11-11
+last update: (code version 1.1) 2020-11-11
 
 The code consistes of four parts: 
 (1) load directories / boundary data,
@@ -16,8 +16,9 @@ The code consistes of four parts:
 (4) Quality check
 
 # Please note
-This code has been revised in response to reviewer comments; for details, see https://bg.copernicus.org/preprints/bg-2020-327/ 
-Please use the latest version "CalcEpsilon1_1.R"
+The original code (version 1.0) has been revised in response to reviewer comments; for details, see https://bg.copernicus.org/preprints/bg-2020-327/ 
+
+Please use the latest version 1.1 ("CalcEpsilon1_1.R")
 
 There is no golden standard method for estimating epsilon in running waters
 results are sensitive to many parameters, and must always be quality checked!
