@@ -10,9 +10,9 @@ release date (code version 1_0): 2020-03-26
 last update: (code version 1_1) 2020-11-11
 
 The code consistes of four parts: 
-(1) load directories / boundary data
-(2) load functions
-(3) process data
+(1) load directories / boundary data,
+(2) load functions,
+(3) process data,
 (4) Quality check
 
 # Please note
