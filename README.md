@@ -1,6 +1,6 @@
 # CalculateEpsilon
-R code to calculate turbulent kinetic energy dissipation (epsilon) in running waters using Acoustic Doppler Velocimetry
-Example data data ("ADV_ExampleFile") are also provided
+R code to calculate turbulent kinetic energy dissipation (epsilon) in running waters using Acoustic Doppler Velocimetry and the inertial subrange method.
+Example data ("ADV_ExampleFile") are also provided
 
 code is written by Marcus Klaus, Swedish University of Agricultural Sciences (SLU), Umeå, Sweden, 
 contact: marcus.klaus@posteo.net
@@ -16,7 +16,7 @@ The code consistes of four parts:
 (4) Quality check
 
 # Please note
-This code has been revised in response to reviewer comments; see https://bg.copernicus.org/preprints/bg-2020-327/ 
+This code has been revised in response to reviewer comments; for details, see https://bg.copernicus.org/preprints/bg-2020-327/ 
 Please use the latest version "CalcEpsilon1_1.R"
 
 There is no golden standard method for estimating epsilon in running waters
