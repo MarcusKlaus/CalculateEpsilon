@@ -2,10 +2,11 @@
 R code to calculate turbulent kinetic energy dissipation (epsilon) in running waters using Acoustic Doppler Velocimetry
 Example data data ("ADV_ExampleFile") are also provided
 
-code is written by Marcus Klaus, Swedish University of Agricultural Sciences (SLU), Umeå, Sweden
+code is written by Marcus Klaus, Swedish University of Agricultural Sciences (SLU), Umeå, Sweden, 
 contact: marcus.klaus@posteo.net
 
 release date (code version 1_0): 2020-03-26
+
 last update: (code version 1_1) 2020-11-11
 
 The code consistes of four parts: 
