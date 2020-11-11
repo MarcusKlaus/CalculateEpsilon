@@ -27,12 +27,12 @@ For use with different ADV system, the code needs to be adjusted
 Please don't hesitate to contact me for any questions or if you find errors in the code!
 
 # Method
-The method is described in detail in 
+The method is described in detail in
+
 Vingiani, F., Durighetto, N, Klaus, M., Schelker, J., Labasque, T. and Botter, W.: Evaluatingstream CO2 
 outgassing via Drifting and Anchored chambers:results of a Flume experiment. Biogeosciences Discussions https://bg.copernicus.org/preprints/bg-2020-327/ .
  
-Code is based on methods in Zappa et al. 2003 and uses many improvements by Bluteau et al. 2011
-Some code parts are adapted from the GDopp package (https://github.com/USGS-R/GDopp) and the Matlab "Despike" functiom by Mori (2020)
+Thec ode is based on methods in Zappa et al. 2003 and uses many improvements by Bluteau et al. 2011. Some code parts are adapted from the GDopp package (https://github.com/USGS-R/GDopp) and the Matlab "Despike" functiom by Mori (2020).
 
 Bluteau, C., Jones, N., and Ivey, G.: Estimating turbulent kinetic energy dissipation using the inertial subrange method in environmental Flows, Limnology and Oceanography: Methods, 9, https://doi.org/10.4319/lom.2011.9.302, 2011.
 
