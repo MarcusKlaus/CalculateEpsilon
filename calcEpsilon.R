@@ -5,6 +5,9 @@
 ### code is written by Marcus Klaus, Swedish University of Agricultural Sciences (SLU), Umeå, Sweden
 ### contact: marcus.klaus@posteo.net
 ### last update: 2020-03-26
+###################################################################################################
+### PLEASE NOTE: THIS VERSION (1.0) is OUTDATED. PLEASE USE THE REVISED VERSION (calcEpsilon1_1)!
+###################################################################################################
 ### 
 ### Please don't hesitate to contact me for any questions or if you find errors in the Code!
 ###
