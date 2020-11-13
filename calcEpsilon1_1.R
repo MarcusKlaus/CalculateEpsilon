@@ -1263,7 +1263,7 @@ eS <- Esf(S=Slope,D=WaterDepth,W=0.4)
 ### calculate epsilon at sensor depth
 ################################################
 
-Epsilon <- fit_epsilon(data=dataDespike,freq=200, WaterDepth=WaterDepth, SensorDepth=SensorDepth,SamplingLength=SamplingLength, diagnostic = plotting, filt=FALSE,n=12,fmax=10,SpAve=SpAve)
+Epsilon <- fit_epsilon(data=dataDespike,freq=200, WaterDepth=WaterDepth, SensorDepth=SensorDepth,SamplingLength=SamplingLength, diagnostic = plotting, filt=FALSE,n=1,fmax=10,SpAve=SpAve)
 local({
 dev.set (2)
 dev.print (device=tiff, file=paste0(filenames[i],"_Spectra.tiff"), width=par("din")*100, res=100);
