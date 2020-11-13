@@ -1,7 +1,7 @@
 ###############################################################################################################
 ### This R code calculates turbulent kinetic energy dissipation rate (epsilon) from 4D Nortek Vectrino ADV data
 ###############################################################################################################
-### code written by Marcus Klaus, Postdoc, Swedish University of Agricultural Sciences (SLU), Umeå, Sweden
+### code written by Marcus Klaus, Postdoc, Swedish University of Agricultural Sciences (SLU), UmeÃ¥, Sweden
 ### contact: marcus.klaus@posteo.net
 ### last update: 2020-11-11
 ### 
@@ -41,19 +41,19 @@
 ### subrange method in environmental ?ows, Limnology and Oceanography: Methods, 9, https://doi.org/10.4319/lom.2011.9.302, 2011.
 ###
 ### Doroudian, B, Bagherimiyab, F. and Lemmin, U.: Improving the accuracy of four-receiver acoustic Doppler velocimeter (ADV) measurements in turbulent boundary layer flow
-### Limnol. Oceanogr.: Methods 8, 575–591. https://doi.org/10.4319/lom.2010.8.0575, 2010.
+### Limnol. Oceanogr.: Methods 8, 575â€“591. https://doi.org/10.4319/lom.2010.8.0575, 2010.
 ### 
 ### Thomas Foken (2005): Micrometeorology. Springer.
 ###
-### Goring, D. and Nikora, V.: De-spiking Acoustic Doppler Velocimeter data., Journal of Hydraulic Engineering, 128, 117–126, 
+### Goring, D. and Nikora, V.: De-spiking Acoustic Doppler Velocimeter data., Journal of Hydraulic Engineering, 128, 117â€“126, 
 ### https://doi.org/10.1061/(ASCE)0733-9429(2002)128:1(117), 2002.
 ###
 ### Henjes, K., Taylor, P. K., and Yelland, M. J.: Effect of Pulse Averaging on Sonic Anemometer Spectra, 
-### Journal of Atmospheric and Oceanic Technology, 16, 181–184, https://doi.org/10.1175/1520-0426(1999)016<0181:EOPAOS>2.0.CO;2, 1999.
+### Journal of Atmospheric and Oceanic Technology, 16, 181â€“184, https://doi.org/10.1175/1520-0426(1999)016<0181:EOPAOS>2.0.CO;2, 1999.
 ###
 ### Kitaigorodskii, S. A. and Lumley, J. L.: Wave-Turbulence interactions in the Upper Ocean. Part I: 
 ### The Energy Balance of the Interacting Fields of Surface Wind Waves and Wind-Induced Three-Dimensional Turbulence, 
-### Journal of Physical Oceanography, 13, 1977–1987, https://doi.org/10.1175/1520-0485(1983)013<1977:WTIITU>2.0.CO;2,https://doi.org/10.1175/1520-0485(1983)013<1977:WTIITU>2.480 0.CO;2, 1983.
+### Journal of Physical Oceanography, 13, 1977â€“1987, https://doi.org/10.1175/1520-0485(1983)013<1977:WTIITU>2.0.CO;2,https://doi.org/10.1175/1520-0485(1983)013<1977:WTIITU>2.480 0.CO;2, 1983.
 ###
 ### Lohrmann, Atle, Ramon Cabrera, and Nicholas C. Kraus: Acoustic-Doppler velocimeter (ADV) for laboratory use. 
 ### Fundamentals and advancements in hydraulic measurements and experimentation, pp. 351-365. ASCE, 1994.
@@ -64,10 +64,10 @@
 ### https://doi.org/10.1061/(ASCE)0733-9399(2007)133:1(122), 2007
 ###
 ### Ruddick, B., Anis, A., and Thompson, K.: Maximum Likelihood Spectral Fitting: The Batchelor Spectrum, Journal of
-### Atmospheric and Oceanic Technology - J ATMOS OCEAN TECHNOL, 17, 1541–1555, https://doi.org/10.1175/15200426(2000)017<1541:MLSFTB>2.0.CO;2, 2000.
+### Atmospheric and Oceanic Technology - J ATMOS OCEAN TECHNOL, 17, 1541â€“1555, https://doi.org/10.1175/15200426(2000)017<1541:MLSFTB>2.0.CO;2, 2000.
 ###
 ### Zappa, C. J., Raymond, P. A., Terray, E. A., and McGillis, W. R.: Variation in surface turbulence and the 
-### gas transfer velocity over a tidal cycle in a macro-tidal estuary, Estuaries, 26, 1401–1415, 2003.
+### gas transfer velocity over a tidal cycle in a macro-tidal estuary, Estuaries, 26, 1401â€“1415, 2003.
 ###
 ###############################################################################################################
 ### INPUTS: 
@@ -535,6 +535,11 @@ ratio.k[h] <- ratio.k.s[id,h]
 
 } ## close h loop
 
+### kolmogorov length scale (threshold for noise)
+k.vis <- get_kin_viscosity(Temperature)
+nk <- (k.vis^3/epsilonMLE)^(1/4)
+nk.k <- 1/(10*nk)
+	
 ## plot spectra for all ENU directions
 
   if (diagnostic){
@@ -582,9 +587,6 @@ ratio.k[h] <- ratio.k.s[id,h]
 
 
 ### kolmogorov length scale (threshold for noise)
-k.vis <- get_kin_viscosity(Temperature)
-nk <- (k.vis^3/epsilonMLE)^(1/4)
-nk.k <- 1/(10*nk)
 abline(v=nk.k,lty=3,col=c(1:4))
 
 legend("topright",c("u","v","w1","w2"),col=c(1,2,3,4),lwd=1,bg="white")
