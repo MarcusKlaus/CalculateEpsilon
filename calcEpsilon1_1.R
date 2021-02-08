@@ -1170,11 +1170,11 @@ VelocityScaling <- as.numeric(gsub("/", "",VelocityScaling))
 CoordinateSystem <- substr(readLines(paste0(folder.nm,"/",filenameshdr[i]),n=19)[19],39,42) ## coordinate system
 
 ## calculate water depth based on ADV distance-to-wall estimate
-WaterDepth <- Distance*cos(position_data$pitch) + TransmitDepth
+WaterDepth <- Distance*cos(position_data$pitch*3.14/180) + TransmitDepth
 
 ### calculate depth of sampling volume
 ### 5 cm distance between transmit transducer and sampling ("sensor") volume; add depth of transmit transducer
-SensorDepth <- 0.05*cos(position_data$pitch) + TransmitDepth 
+SensorDepth <- 0.05*cos(position_data$pitch*3.14/180) + TransmitDepth 
 
 ### extract ADV transformation matrix
 Transformationmatrix1 <- as.numeric(unlist(strsplit((gsub("[[:alpha:]]", "", sub("\\D+","",readLines(paste0(folder.nm,"/",filenameshdr[i]),n=82)[82])))," ")))
